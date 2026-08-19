@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cal. — Privacy Policy</title>
+  <style>
+    :root {
+      --red:    #CC2A36;
+      --white:  #FFFFFF;
+      --off:    #F7F5F2;
+      --ink:    #1A1A1A;
+      --muted:  #888888;
+      --border: #E8E4DF;
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--off);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--red);
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    .logo {
+      display: inline-block;
+      width: 52px;
+      height: 52px;
+      background: var(--white);
+      border-radius: 14px;
+      line-height: 52px;
+      font-size: 26px;
+      font-weight: 900;
+      color: var(--red);
+      letter-spacing: -1px;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 15px;
+      color: rgba(255,255,255,0.7);
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 24px;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--red);
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 8px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      font-size: 14px;
+      color: #444;
+      margin: 8px 0 8px 20px;
+    }
+
+    ul li { margin-bottom: 4px; }
+
+    .effective {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 24px;
+      padding: 12px 16px;
+      background: var(--white);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    a { color: var(--red); text-decoration: none; font-weight: 600; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p>How Cal. handles your data</p>
+</header>
+
+<main>
+
+  <p class="effective">Effective date: August 18, 2026</p>
+
+  <div class="card">
+    <h2>Who we are</h2>
+    <p>Cal. is developed and maintained by Daren Irlen, operating as Feather Studio. References to "we", "us", or "our" in this policy refer to Feather Studio. You can reach us at <a href="mailto:featherstudio@proton.me">featherstudio@proton.me</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>What data Cal. stores — and where</h2>
+    <p>Cal. stores the following data <strong>locally on your device only</strong>, using Apple's standard UserDefaults and local file storage:</p>
+    <ul>
+      <li>Events you create in Cal. (title, dates, category, notes, repeat rules, reminders)</li>
+      <li>Notes you write in the Notes journal</li>
+      <li>Your category customisations (names, colours, keywords)</li>
+      <li>Your app preferences (theme, time format, week start, default durations)</li>
+      <li>Your selected calendar identifiers for EventKit sync</li>
+    </ul>
+    <p>None of this data is transmitted to Feather Studio's servers. We do not have access to your calendar events, notes, or any content you create in Cal.</p>
+  </div>
+
+  <div class="card">
+    <h2>Calendar data (EventKit)</h2>
+    <p>If you enable Calendar sync, Cal. requests access to your iPhone's calendar data through Apple's EventKit framework. This allows Cal. to:</p>
+    <ul>
+      <li>Read events from the calendars you select (Apple Calendar, Google Calendar, Outlook, etc.)</li>
+      <li>Write events you create in Cal. to a dedicated "Cal." calendar in Apple Calendar</li>
+    </ul>
+    <p>Calendar data accessed through EventKit stays on your device and syncs through your own Apple ID or Google account — not through Feather Studio. Cal. does not read, store, or transmit your calendar data to external servers.</p>
+  </div>
+
+  <div class="card">
+    <h2>Voice input and speech recognition</h2>
+    <p>Cal. uses Apple's Speech Recognition framework (SFSpeechRecognizer) to convert your voice to text. Apple may transmit audio to its servers for processing, subject to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>. Feather Studio does not receive, store, or process any audio or voice data.</p>
+    <p>Voice language preferences (English, French, Spanish, or device default) are stored locally on your device only.</p>
+  </div>
+
+  <div class="card">
+    <h2>Notifications</h2>
+    <p>If you enable notifications, Cal. schedules local notifications on your device using Apple's notification framework. These notifications are generated and delivered entirely on-device. No notification content is transmitted to Feather Studio's servers.</p>
+  </div>
+
+  <div class="card">
+    <h2>Analytics and third-party services</h2>
+    <p>Cal. does not use any third-party analytics, tracking, or advertising services. We do not collect usage data, crash reports, or behavioural analytics.</p>
+    <p>Purchases made through Cal. Pro are processed by Apple through the App Store. Apple's privacy practices for in-app purchases are governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Data retention and deletion</h2>
+    <p>All data created in Cal. is stored locally on your device. Uninstalling Cal. removes all local data. There is no server-side account, so we cannot retrieve or delete data on your behalf — because we never had access to it.</p>
+    <p>If Calendar sync is enabled, events written to your "Cal." calendar in Apple Calendar will remain in Apple Calendar after Cal. is uninstalled, since that data belongs to your Apple ID.</p>
+  </div>
+
+  <div class="card">
+    <h2>Children's privacy</h2>
+    <p>Cal. is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
+  </div>
+
+  <div class="card">
+    <h2>Changes to this policy</h2>
+    <p>If we make material changes to this policy, we will update the effective date above and post the revised version at this URL. Continued use of Cal. after changes are posted constitutes acceptance of the updated policy.</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Questions or concerns about this policy? Reach us at <a href="mailto:featherstudio@proton.me">featherstudio@proton.me</a>. We aim to respond within 48 hours.</p>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 Daren Irlen – Feather Studio &nbsp;·&nbsp;
+    <a href="faq.html">FAQ</a> &nbsp;·&nbsp;
+    <a href="terms.html">Terms of Use</a>
+  </p>
+</footer>
+
+</body>
+</html>
